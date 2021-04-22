@@ -1,0 +1,92 @@
+/* Estilo del cuerpo */
+
+body {
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-size: 110%;
+}
+
+/* Estilo del contenedor del contenido */
+
+.bienvenida {
+  display: flex;
+  position: absolute;
+  top: 10em;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  z-index: 1;
+}
+
+/* Estilo del título del juego */
+
+.bienvenida h1 {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-size: 5rem;
+  margin-top: 0;
+}
+
+/* Estilo del botón */
+
+.bienvenida-botones {
+  display: flex;
+}
+
+.boton {
+  height: 80px;
+  width: 200px;
+  color: white;
+  transition: 0.5s;
+  border: 4px solid white;
+  cursor: pointer;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 8em;
+  bottom: 0;
+}
+.boton > span {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.btn4 {
+  background: -webkit-linear-gradient(transparent 50%, white 50%);
+  background-size: 200px 160px;
+}
+.btn4:hover {
+  background-position: 0 80px;
+  color: #000000;
+}
+
+.volver {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: black;
+  top: -0.1em;
+}
+
+.volver:hover {
+    color: #6a5acd;
+  }
+
+a {
+  font-weight: 800;
+  position: fixed;
+  right: 35px;
+  font-size: 0.9em;
+}
